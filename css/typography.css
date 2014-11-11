@@ -16,12 +16,12 @@ img {
 .error {
 	text-align: center;
 	font-weight: 300;
+	position: relative; 
 }
 
 .error-logo {
 	width: 20%;
 	margin: auto;
-	position: relative; 
 	bottom: 10 rem;
 }
 
