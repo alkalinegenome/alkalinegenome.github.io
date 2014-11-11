@@ -6,6 +6,7 @@ html {
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 	text-size-adjust: 100%;
+	background: #F5F5F5;
 }
 
 img {
@@ -13,21 +14,22 @@ img {
 	width: 100%;
 }
 
+.welcome {
+	margin-top: 5%;
+	position: absolute;
+	width: 100%;
+}
+
 .error-textbox {
-	position: relative; 
+	
 }
 
 .error {
 	text-align: center;
 	font-weight: 300;
-	bottom: 10 rem;
 }
 
 .error-logo {
 	width: 20%;
 	margin: auto;
-}
-
-.welcome {
-	position: absolute;
 }
