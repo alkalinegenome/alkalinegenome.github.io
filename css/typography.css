@@ -21,4 +21,10 @@ img {
 .error-logo {
 	width: 20%;
 	margin: auto;
+	position: relative; 
+	bottom: 10 rem;
+}
+
+.welcome {
+	position: absolute;
 }
