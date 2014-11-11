@@ -1,9 +1,22 @@
 @charset "UTF-8";
 
-body {
+html {
 	font-family: "Roboto", "Helvetica", "Arial", Sans-serif;
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+}
+
+img {
+	display: block;
+	width: 100%;
 }
 
 .error {
 	
+}
+
+.error-logo {
+	margin: auto;
 }
