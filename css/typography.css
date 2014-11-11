@@ -17,12 +17,12 @@ img {
 	text-align: center;
 	font-weight: 300;
 	position: relative; 
+	bottom: 10 rem;
 }
 
 .error-logo {
 	width: 20%;
 	margin: auto;
-	bottom: 10 rem;
 }
 
 .welcome {
