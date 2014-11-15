@@ -1,0 +1,187 @@
+/*
+
+COLOR SCHEME
+
+INDIAN RED 
+	#CD5C5C 
+	205 92 92
+	
+FOX RED 
+	#E14825 
+	255 72 37
+	
+CORAL
+	 #FF7F50 
+	255 127 80
+	
+OLD LACE 
+	#FDF5E6 
+	253 245 230
+	
+ORANGE 
+	#FFA500 
+	255 165 0
+
+*/
+
+h1, h2, h3, h4, h5, h6, p, blockquote, ul, ol, dl, table {
+	margin-bottom: 1.5rem;
+}
+
+h1, h2, h3, h4, h5, h6, .multiverse, .universe,
+.brand {
+	color: #FFA500;
+}
+	
+.multiverse {
+	font-size: 4.767rem;
+	line-height: 1.0558;
+ }
+
+.universe {
+	font-size: 3.814rem;
+	line-height: 1.0723;
+}
+
+h1, .galaxy {
+	font-size: 3.051rem;
+	line-height: 1.0311;
+}
+
+h2, .starsystem {
+	font-size: 2.441rem;
+	line-height: 1.0311;
+}
+
+h3, .star {
+	font-size: 1.953rem;
+	line-height: 1.1278;
+}
+
+h4, .planet {
+	font-size: 1.563rem;
+	line-height: 1.0069;
+}
+
+h5, .organism {
+	font-size: 1.25rem;
+	line-height: 1.0069;
+}
+
+h6, .cell {
+	font-size: 1rem;
+	line-height: 1.2587;
+}
+
+small, .atom, caption { 
+	font-size: .8rem;
+	line-height: 1.1800;
+}
+
+.string {
+	font-size: .64rem;
+	line-height: 1.4750;
+}
+
+/* ========================================== Basic Tag Definitions  ========================================== */
+
+p {
+	color: rgba(0,0,0,.50);
+}
+
+hr {
+	border: solid 1px #FFA500;
+}
+
+::selection {
+/*	background-color: rgba(205,92,92,0.85); */
+	background-color: rgba(255,165,0,0.85); 
+/*	color: #F3F3F3; */
+	color: #FFF;
+}
+
+a,
+a:link {
+	color: #FFA500;
+	text-decoration: none;
+	transition: all 100ms linear;
+}
+
+a:visited {
+	color: #FF7F50;
+}
+
+a:hover,
+a:focus,
+a:active {
+	color: #CD5C5C;
+}
+
+a:hover,
+a:active {
+	outline:none;
+}
+
+a:focus {
+	outline: #CD5C5C 3px solid;
+}
+
+.nav li {
+	text-decoration: none;
+	display: inline-block;
+}
+
+.copyright {
+	color: rgba(0,0,0,.50);
+	padding: 0 1.5rem;
+}
+
+mark {
+	background-color: rgba(255,165,0,0.25);
+}
+
+em {
+	font-style:italic;
+}
+
+sub, sup {
+	line-height: 1rem;
+}
+
+strong {
+	font-weight: 500;
+}
+
+.center-text {
+	text-align: center;
+}
+
+blockquote {
+	position: relative;
+}
+
+blockquote p:before {
+	content: "“";
+	position: absolute;
+	top: .5em;
+	left: -.5em;
+	font-size: 5rem;
+}
+
+blockquote p:after {
+	content: "”";
+	position: relative;
+	top: .5em;
+	right: -.5em;
+	font-size: 5rem;
+}
+
+/* ========================================== Custom Tag Spacing Definitions  ========================================== */
+
+.top-none {
+	margin-top: 0;
+}
+
+.bottom-none {
+	margin-bottom: 0;
+}
