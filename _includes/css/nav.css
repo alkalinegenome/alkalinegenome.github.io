@@ -1,0 +1,62 @@
+/* ========================================== NAVIGATION Definitions  ========================================== */
+/*
+
+COLOR SCHEME
+
+INDIAN RED 
+	#CD5C5C 
+	205 92 92
+	
+FOX RED 
+	#E14825 
+	255 72 37
+	
+SALMON
+	#FA8072 
+	250,128,114	
+
+OLD LACE 
+	#FDF5E6 
+	253 245 230
+	
+ORANGE 
+	#FFA500 
+	255 165 0
+
+SLATEGRAY
+	#708090
+	rgb(112,128,144)
+
+LIGHTSLATEGRAY
+	#778899
+	rgb(119,136,153)
+	
+*/
+
+.nav-bar-center {
+	display: block;
+	margin: 0 auto;
+	overflow:hidden;
+}
+
+.nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+.nav li {
+	text-decoration: none;
+	display: inline-block;
+	background-color: rgba(119,136,153,.85);
+	text-align: center;
+}
+
+.nav a {
+	color: #FDF5E6; 
+}
+
+.menu-btn {
+	display:block;
+	margin: 0 auto;
+	width: 15%;
+}

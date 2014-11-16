@@ -8,29 +8,28 @@ html {
 	-webkit-text-size-adjust: 100%;
 	text-size-adjust: 100%;
 	background: #F5F5F5;
+	margin: 0;
+	padding: 0;
 }
 
-img {
+body {
+	margin: 0;
+	padding: 0;
+}
+
+img,
+object {
 	display: block;
 	width: 100%;
 }
-
+/*
 .welcome {
 	margin-top: 5%;
 	position: absolute;
 	width: 100%;
 }
-
-.error-textbox {
-	
-}
-
-.error {
-	text-align: center;
-	font-weight: 300;
-}
-
-.error-logo {
-	width: 20%;
-	margin: auto;
+*/
+.logo {
+	width: 8%;
+	margin: 0 auto;
 } 

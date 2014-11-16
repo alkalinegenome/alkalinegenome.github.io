@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>{{page.title}} · Gabriel Mitchell Portoflio</title>
+<title>Gabriel Mitchell Portoflio · {{page.title}}</title>
 <link href="{{site.baseurl}}css/main.css" rel="stylesheet">
 <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,500,700' rel='stylesheet' type='text/css'>
 <meta name="handheldfriendly" content="true">
@@ -17,14 +17,17 @@
 <body>
 
 	<header>
-		<h1>Gabriel Mitchell Portfolio</h1>
+		<div>
+			<img src="http://placehold.it/2000x700">
+		</div>
+		<h1 class="center-text">Gabriel Mitchell</h1>
 		{% include nav.html %}
 	</header>
 	
 	{{content}}
 	
 	<footer>
-		{% include nav.html %}
+	<!--	{% include nav.html %} -->
 	</footer>
 
 </body>

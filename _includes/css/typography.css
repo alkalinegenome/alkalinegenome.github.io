@@ -10,10 +10,10 @@ FOX RED
 	#E14825 
 	255 72 37
 	
-CORAL
-	 #FF7F50 
-	255 127 80
-	
+SALMON
+	#FA8072 
+	250,128,114	
+
 OLD LACE 
 	#FDF5E6 
 	253 245 230
@@ -22,30 +22,40 @@ ORANGE
 	#FFA500 
 	255 165 0
 
+SLATEGRAY
+	#708090
+	rgb(112,128,144)
+
+LIGHTSLATEGRAY
+	#778899
+	rgb(119,136,153)
+	
 */
 
 h1, h2, h3, h4, h5, h6, p, blockquote, ul, ol, dl, table {
 	margin-bottom: 1.5rem;
 }
 
-h1, h2, h3, h4, h5, h6, .multiverse, .universe,
-.brand {
-	color: #FFA500;
+h1, h2, h3, h4, h5, h6, .multiverse, .universe, .atom, .string {
+	color: #FA8072;
 }
 	
 .multiverse {
 	font-size: 4.767rem;
 	line-height: 1.0558;
+	font-weight: 100;
  }
 
 .universe {
 	font-size: 3.814rem;
 	line-height: 1.0723;
+	font-weight: 100;
 }
 
 h1, .galaxy {
 	font-size: 3.051rem;
 	line-height: 1.0311;
+	font-weight: 100;
 }
 
 h2, .starsystem {
@@ -76,11 +86,13 @@ h6, .cell {
 small, .atom, caption { 
 	font-size: .8rem;
 	line-height: 1.1800;
+	font-weight: 100;
 }
 
 .string {
 	font-size: .64rem;
 	line-height: 1.4750;
+	font-weight: 100;
 }
 
 /* ========================================== Basic Tag Definitions  ========================================== */
@@ -90,31 +102,29 @@ p {
 }
 
 hr {
-	border: solid 1px #FFA500;
+	border: solid 1px #FA8072;
 }
 
 ::selection {
-/*	background-color: rgba(205,92,92,0.85); */
 	background-color: rgba(255,165,0,0.85); 
-/*	color: #F3F3F3; */
 	color: #FFF;
 }
 
 a,
 a:link {
-	color: #FFA500;
+	color: #E14825;
 	text-decoration: none;
 	transition: all 100ms linear;
 }
 
 a:visited {
-	color: #FF7F50;
+	color: #CD5C5C;
 }
 
 a:hover,
 a:focus,
 a:active {
-	color: #CD5C5C;
+	color: #FFA500;
 }
 
 a:hover,
@@ -126,18 +136,13 @@ a:focus {
 	outline: #CD5C5C 3px solid;
 }
 
-.nav li {
-	text-decoration: none;
-	display: inline-block;
-}
-
 .copyright {
 	color: rgba(0,0,0,.50);
 	padding: 0 1.5rem;
 }
 
 mark {
-	background-color: rgba(255,165,0,0.25);
+	background-color: rgba(250,128,114,0.25);
 }
 
 em {
