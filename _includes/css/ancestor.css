@@ -22,6 +22,16 @@ object {
 	display: block;
 	width: 100%;
 }
+
+.center-object {
+	display: block;
+	margin: 0 auto;
+}
+
+.wrap {
+		overflow: hidden;
+}
+
 /*
 .welcome {
 	margin-top: 5%;

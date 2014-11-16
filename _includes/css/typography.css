@@ -36,7 +36,7 @@ h1, h2, h3, h4, h5, h6, p, blockquote, ul, ol, dl, table {
 	margin-bottom: 1.5rem;
 }
 
-h1, h2, h3, h4, h5, h6, .multiverse, .universe, .atom, .string {
+h1, h2, h3, h4, h5, h6, .multiverse, .universe {
 	color: #FA8072;
 }
 	
@@ -81,6 +81,7 @@ h5, .organism {
 h6, .cell {
 	font-size: 1rem;
 	line-height: 1.2587;
+	font-weight: 100;
 }
 
 small, .atom, caption { 
@@ -136,9 +137,24 @@ a:focus {
 	outline: #CD5C5C 3px solid;
 }
 
+.contact {
+	align-content: center;
+}
+
+.contact li {
+	text-decoration: none;
+	display:inline-block;
+}
+
 .copyright {
 	color: rgba(0,0,0,.50);
 	padding: 0 1.5rem;
+}
+
+ul, ol, li {
+	margin: 0;
+	padding: 0;
+	border: none;
 }
 
 mark {

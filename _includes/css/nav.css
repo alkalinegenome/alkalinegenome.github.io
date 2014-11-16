@@ -44,6 +44,7 @@ LIGHTSLATEGRAY
 	padding: 0;
 }
 
+.contact li,
 .nav li {
 	text-decoration: none;
 	display: inline-block;
