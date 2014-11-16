@@ -106,7 +106,7 @@ hr {
 }
 
 ::selection {
-	background-color: rgba(255,165,0,0.85); 
+	background-color: rgba(255,72,37,0.85); 
 	color: #FFF;
 }
 
@@ -179,6 +179,11 @@ blockquote p:after {
 	top: .5em;
 	right: -.5em;
 	font-size: 5rem;
+}
+
+hr {
+	margin: 0;
+	padding: 0;
 }
 
 /* ========================================== Custom Tag Spacing Definitions  ========================================== */

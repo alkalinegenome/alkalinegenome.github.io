@@ -29,7 +29,47 @@ object {
 	width: 100%;
 }
 */
-.logo {
-	width: 8%;
-	margin: 0 auto;
-} 
+
+@media only screen and (min-width: 10em) {
+	.logo {
+		width: 15%;
+		margin: 0 auto;
+		clear: both;
+		position: absolute;
+		top: 2%;
+		left: 42.5%;
+	}
+}
+
+@media only screen and (min-width: 30em) {
+	.logo {
+		width: 12%;
+		margin: 0 auto;
+		clear: both;
+		position: absolute;
+		top: 5%;
+		left: 44%;
+	}
+}
+
+@media only screen and (min-width: 30em) {
+	.logo {
+		width: 10%;
+		margin: 0 auto;
+		clear: both;
+		position: absolute;
+		top: 5%;
+		left: 45%;
+	}
+}
+
+@media only screen and (min-width: 70em) {
+	.logo {
+		width: 6%;
+		margin: 0 auto;
+		clear: both;
+		position: absolute;
+		top: 10%;
+		left: 47%;
+	}
+}
