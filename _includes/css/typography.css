@@ -99,8 +99,16 @@ small, .atom, caption {
 	font-weight: 100;
 }
 
+.w700 {
+	font-weight: 700;
+}
+
 .w400 {
 	font-weight: 400;
+}
+
+.w300 {
+	font-weight: 300;
 }
 
 .w100 {
@@ -216,4 +224,22 @@ hr {
 
 .bottom-none {
 	margin-bottom: 0;
+}
+
+.piece {
+	margin-bottom: 6rem;
+}
+
+.banner {
+	background-color: #FA8072;
+	padding: 3rem 5%;
+	margin: 10rem 0;
+}
+
+.banner h2 {
+	color: #F5F5F5;
+}
+
+.buffer {
+	margin: 3rem 0;
 }

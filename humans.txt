@@ -10,12 +10,12 @@ Exploring Ottawa, Canada
 
 # THANKS
 
-The Gurus at:
--CODEPEN
-
+The Gurus at CODEPEN
+* amirasalah
 
 # TECH
 
 - Adobe CC 2014
 - GitHub
 - Hover.com
+- Superfluous amounts of coffee

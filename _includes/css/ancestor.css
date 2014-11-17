@@ -32,6 +32,10 @@ object {
 		overflow: auto;
 }
 
+.clearfix {
+	clear: left;
+}
+
 /*
 .welcome {
 	margin-top: 5%;
