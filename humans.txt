@@ -12,7 +12,6 @@ Exploring Ottawa, Canada
 
 The Gurus at:
 -CODEPEN
--CSSDECK
 
 
 # TECH
