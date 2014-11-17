@@ -29,7 +29,7 @@
 		-o-transition: .5s;  
 	}  
 	svg:hover #fox {  
-		fill: #708090 ;  
+		fill: #F5F5F5 ;  
 	}  
 	]]>  
 </style>
