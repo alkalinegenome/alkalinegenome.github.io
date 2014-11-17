@@ -4,11 +4,11 @@ COLOR SCHEME
 
 INDIAN RED 
 	#CD5C5C 
-	205 92 92
+	205,92,92
 	
 FOX RED 
 	#E14825 
-	255 72 37
+	255,72,37
 	
 SALMON
 	#FA8072 
@@ -16,11 +16,11 @@ SALMON
 
 OLD LACE 
 	#FDF5E6 
-	253 245 230
+	253,245,230
 	
 ORANGE 
 	#FFA500 
-	255 165 0
+	255,165,0
 
 SLATEGRAY
 	#708090
@@ -29,6 +29,9 @@ SLATEGRAY
 LIGHTSLATEGRAY
 	#778899
 	rgb(119,136,153)
+	
+OFF-WHITE
+	#F5F5F5
 	
 */
 
@@ -96,6 +99,14 @@ small, .atom, caption {
 	font-weight: 100;
 }
 
+.w400 {
+	font-weight: 400;
+}
+
+.w100 {
+	font-weight: 100;
+}
+
 /* ========================================== Basic Tag Definitions  ========================================== */
 
 p {
@@ -107,7 +118,7 @@ hr {
 }
 
 ::selection {
-	background-color: rgba(255,72,37,0.85); 
+	background-color: rgba(255,165,0,0.65); 
 	color: #FFF;
 }
 
@@ -135,15 +146,6 @@ a:active {
 
 a:focus {
 	outline: #CD5C5C 3px solid;
-}
-
-.contact {
-	align-content: center;
-}
-
-.contact li {
-	text-decoration: none;
-	display:inline-block;
 }
 
 .copyright {
@@ -203,6 +205,10 @@ hr {
 }
 
 /* ========================================== Custom Tag Spacing Definitions  ========================================== */
+
+.caption {
+	font-style: italic;
+}
 
 .top-none {
 	margin-top: 0;

@@ -29,7 +29,7 @@ object {
 }
 
 .wrap {
-		overflow: hidden;
+		overflow: auto;
 }
 
 /*

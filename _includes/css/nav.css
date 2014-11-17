@@ -44,7 +44,17 @@ LIGHTSLATEGRAY
 	padding: 0;
 }
 
-.contact li,
+.contact {
+	align-content: center;
+}
+
+.contact li {
+	display: inline-block;
+	text-decoration: none;
+	list-style-type: none;
+	text-align:center;
+}
+
 .nav li {
 	text-decoration: none;
 	display: inline-block;
