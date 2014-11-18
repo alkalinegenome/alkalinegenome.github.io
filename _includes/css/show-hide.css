@@ -2,7 +2,11 @@
 {
 	width:auto;
 	margin: 0 auto;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
 	border-bottom: 2px solid #778899;
+	
 }
 
 .accordion:hover {
@@ -22,11 +26,11 @@
 	-webkit-user-select: none;
 	-moz-user-select: none;
 	-ms-user-select: none;
-	-webkit-transition: .5s;
-	-moz-transition: .5s;
-	-ms-transition: .5s;
-	-o-transition: .5s;
-	transition: .5s;
+	-webkit-transition: .125s;
+	-moz-transition: .125s;
+	-ms-transition: .125s;
+	-o-transition: .125s;
+	transition: .125s;
 }
 
 .accordion h3:hover

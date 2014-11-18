@@ -12,8 +12,19 @@
 <meta name="keywords" content="{{page.meta-keywords}}">
 <meta name="author" content="Gabriel Mitchell">
 <meta name="copyright" content="©Gabriel Mitchell">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script> -->
+<script src="js/jquery.flexslider.js"></script>
+<script type="text/javascript" charset="utf-8">
+$(window).load(function() {
+	$('.flexslider').flexslider({
+		animation: "fade",
+		controlNav: "thumbnails",
+		pauseOnHover: false
+	});
+});
+</script>
 </head>
-
 <body>
 
 	<header>
@@ -29,7 +40,10 @@
 	<footer>
 		{% include nav.html %} 
 	</footer>
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	
+	<!-- jquery 2.1.1 & accordion for INFO TOGGLE -->
+	<!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
 	<script src="js/accordion.js"></script>
+	
 </body>
 </html>
