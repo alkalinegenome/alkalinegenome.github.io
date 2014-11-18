@@ -115,6 +115,10 @@ small, .atom, caption {
 	font-weight: 100;
 }
 
+.salmon {
+	color: #FA8072;
+}
+
 /* ========================================== Basic Tag Definitions  ========================================== */
 
 p {

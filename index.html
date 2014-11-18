@@ -3,36 +3,43 @@ layout: default
 title: Welcome
 ---
 
+	<header>
+		<div>
+			<img src="http://placehold.it/2000x600/778899/F5F5F5" alt="Welcome to my Portfolio">
+		</div>
+		<h1 class="center-text w700 universe">Gabriel Mitchell</h1>
+		{% include nav.html %}
+	</header>
 
-<div id="welcome" class="welcome">
-<!--	<img class="logo" src="images/logo-gm.svg" alt="Good Things Come To Those Who Wait.">-->
+	<div id="welcome" class="welcome">
+	<!--	<img class="logo" src="images/logo-gm.svg" alt="Good Things Come To Those Who Wait.">-->
+		
+		<object type="image/svg+xml" data="images/logo-gm.svg" class="logo">
+		  <a href="#">Gabriel Mitchell Fox Logo <!-- fallback image in CSS --></a>
+		</object>	
+		
+	</div>
 	
-	<object type="image/svg+xml" data="images/logo-gm.svg" class="logo">
-	  <a href="#">Gabriel Mitchell Fox Logo <!-- fallback image in CSS --></a>
-	</object>	
+	<div class="wrap buffer">
+		<div id="work" class="buffer banner clearfix unit-s-1 unit-m-1 unit-l-5-8 unit-xl-5-8 nav-bar-center">
+			<h2 class="galaxy center-text w400">Works</h2>
+		</div>
+	</div>
 	
-</div>
-
-<div class="wrap buffer">
-	<div id="work" class="buffer banner clearfix unit-s-1 unit-m-1 unit-l-5-8 unit-xl-5-8 nav-bar-center">
-		<h2 class="galaxy center-text w400">WORKS</h2>
+			{% include pieces.html %}
+	
+	<div class="wrap buffer">
+		<div id="about" class="buffer banner clearfix unit-s-1 unit-m-1 unit-l-5-8 unit-xl-5-8 nav-bar-center">
+			<h2 class="galaxy center-text w400">About</h2>
+		</div>
 	</div>
-</div>
-
-		{% include pieces.html %}
-
-<div class="wrap buffer">
-	<div id="about" class="buffer banner clearfix unit-s-1 unit-m-1 unit-l-5-8 unit-xl-5-8 nav-bar-center">
-		<h2 class="galaxy center-text w400">ABOUT</h2>
+	
+			{% include about.html %}
+	
+	<div class="wrap buffer">
+		<div id="contact" class="buffer banner clearfix unit-s-1 unit-m-1 unit-l-5-8 unit-xl-5-8 nav-bar-center">
+			<h2 class="galaxy center-text w400">Contact</h2>
+		</div>
 	</div>
-</div>
-
-		{% include about.html %}
-
-<div class="wrap buffer">
-	<div id="contact" class="buffer banner clearfix unit-s-1 unit-m-1 unit-l-5-8 unit-xl-5-8 nav-bar-center">
-		<h2 class="galaxy center-text w400">CONTACT</h2>
-	</div>
-</div>
 
 		{% include contact.html %}
