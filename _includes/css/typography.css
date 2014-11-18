@@ -119,6 +119,7 @@ small, .atom, caption {
 
 p {
 	color: rgba(0,0,0,.50);
+	font-weight: 300;
 }
 
 hr {
@@ -241,7 +242,7 @@ hr {
 
 .banner {
 	background-color: #FA8072;
-	padding: 3rem 5%;
+	padding: 1.5rem 5%;
 	margin: 10rem 0;
 }
 

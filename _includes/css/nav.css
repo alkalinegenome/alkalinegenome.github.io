@@ -40,7 +40,7 @@ LIGHTSLATEGRAY
 
 .nav-bar-center {
 	display: block;
-	margin: 0 auto;
+	margin: auto auto;
 	overflow:visible;
 }
 
