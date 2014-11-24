@@ -1,6 +1,14 @@
 .grid {
 	border: none;
-	overflow: hidden;
+}
+
+.grid::before, .grid::after {
+  content: " ";
+  display: table
+}
+
+.grid::after {
+  clear: both;
 }
 
 .unit {
@@ -168,6 +176,40 @@
 	}
 	
 	.unit-xl-1 {
+		width: 100%;
+	}
+}
+
+@media only screen and (min-width: 100em) {
+	.unit-xxl-1-8 {
+		width: 12.5%;
+	}
+	
+	.unit-xxl-2-8 {
+		width: 25%;
+	}
+	
+	.unit-xxl-3-8 {
+		width: 37.5%;
+	}
+	
+	.unit-xxl-4-8 {
+		width: 50%;
+	}
+	
+	.unit-xxl-5-8 {
+		width: 62.5%;
+	}
+	
+	.unit-xxl-6-8 {
+		width: 75%;
+	}
+	
+	.unit-xxl-7-8 {
+		width: 87.5%;
+	}
+	
+	.unit-xxl-1 {
 		width: 100%;
 	}
 }
