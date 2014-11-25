@@ -32,6 +32,7 @@ LIGHTSLATEGRAY
 	
 OFF-WHITE
 	#F5F5F5
+	rgb(245,245,245)
 	
 */
 
@@ -246,7 +247,7 @@ hr {
 
 .banner {
 	background-color: #FA8072;
-	padding: 1.5rem 5%;
+	padding: 1.5rem 0;
 	margin: 10rem 0;
 }
 
