@@ -35,6 +35,11 @@ object {
 .clearfix {
 	clear: left;
 }
+
+#Layer_1 svg:hover {
+	fill: red;
+}
+
 /* Nope that didn't work.
 .about {
 	position:fixed !important;
