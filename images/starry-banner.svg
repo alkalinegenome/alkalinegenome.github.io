@@ -44,7 +44,12 @@
 	</clipPath>
 	<g id="unified-object" clip-path="url(#totalclip)">
 	
-	<rect id="bg" y="0" fill="#708090" width="1500" height="550.1"/>
+	<rect id="bg" y="0" fill="#708090" width="1500" height="550"> 
+		 <animateColor attributeName="fill"
+				values="#708090; #213A4F;"
+                  begin="0s" dur="2s"
+                  fill="" repeatCount="indefinite"/>	
+	</rect>
 	<g>
 		<defs>
 			<polygon id="starclip" points="1500,0 1500,318.4 1311.9,391.5 1184.6,312.1 1086.4,373.3 967.3,290.4 889.6,344.5 750,247.2 
@@ -57,7 +62,7 @@
 			<animateTransform
             attributeName="transform"
             begin="0s"
-            dur="600s"
+            dur="720s"
             type="rotate"
             from="0 750 500"
             to="360 750 500"
