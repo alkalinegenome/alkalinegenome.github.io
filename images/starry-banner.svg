@@ -40,7 +40,7 @@
 		<polygon id="clipme" fill="#F5F5F5" points="1500,0 1500,258.3 750,550 0,258.3 0,0 "/>
 	</defs>
 	<clipPath id="totalclip">
-		<use xlink:href="#clipme"  overflow="hidden"/>
+		<use xlink:href="#clipme"  overflow="visible"/>
 	</clipPath>
 	<g id="unified-object" clip-path="url(#totalclip)">
 	
@@ -53,8 +53,16 @@
 		<clipPath id="starclip_1_">
 			<use xlink:href="#starclip"  overflow="visible"/>
 		</clipPath>
-		<g id="allstars" clip-path="url(#starclip_1_)">
-			
+		<g id="allstars">
+			<animateTransform
+            attributeName="transform"
+            begin="0s"
+            dur="600s"
+            type="rotate"
+            from="0 750 500"
+            to="360 750 500"
+            repeatCount="indefinite" 
+        />
 				<use xlink:href="#smallstars"  width="122" height="114.2" x="-61" y="-57.1" transform="matrix(-0.4498 0.8931 0.8931 0.4498 -70.1924 189.7069)" overflow="visible"/>
 			
 				<use xlink:href="#smallstars"  width="122" height="114.2" x="-61" y="-57.1" transform="matrix(0.7752 0.6317 0.6317 -0.7752 177.1214 -136.6084)" overflow="visible"/>
