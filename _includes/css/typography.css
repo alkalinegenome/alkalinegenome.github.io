@@ -1,49 +1,53 @@
-/*
+.indianred {
+	color: #CD5C5C;
+	color: rbga(205,92,92,1); 
+}
+	
+.foxred {
+	color: #E14825;
+	color: rbga(255,72,37,1);
+}
+	
+.salmon {
+	color: #FA8072; 
+	color: rbga(250,128,114,1);
+}
 
-COLOR SCHEME
+.lace {
+	color: #FDF5E6;
+	color: rbga(253,245,230,1);
+}
+	
+.orange {
+	color: #FFA500;
+	color: rbga(255,165,0,1);
+}
 
-INDIAN RED 
-	#CD5C5C 
-	205,92,92
-	
-FOX RED 
-	#E14825 
-	255,72,37
-	
-SALMON
-	#FA8072 
-	250,128,114	
+.slate {
+	color: #708090;
+	color: rbga(112,128,144,1); 
+}
 
-OLD LACE 
-	#FDF5E6 
-	253,245,230
+.lightslate {
+	color: #778899;
+	color: rbga(119,136,153,1); 
+}
 	
-ORANGE 
-	#FFA500 
-	255,165,0
-
-SLATEGRAY
-	#708090
-	rgb(112,128,144)
-
-LIGHTSLATEGRAY
-	#778899
-	rgb(119,136,153)
+.white {
+	color: #F5F5F5;
+	color: rbga(245,245,245,1);
+}
 	
-OFF-WHITE
-	#F5F5F5
-	rgb(245,245,245)
+.navyblue {
+	color: #213A4F;
+	color: rgba(33,58,79,1);
+}
 	
-COASTAL NAVY BLUE
-	#213A4F
-	rgb(33,58,79)
+.emberorange {
+	color: #E07000;
+	color: rbga(224,112,0,1);
+}
 	
-EMBER ORANGE
-	#E07000
-	rbg(224,112,0)
-	
-	
-*/
 
 h1, h2, h3, h4, h5, h6, p, blockquote, ul, ol, dl, table {
 	margin-bottom: 1.5rem;
