@@ -198,7 +198,7 @@ html[xmlns] .slides {display: block;}
 	}
 }
 
-@media screen and (max-width: 30em) {
+@media screen and (max-width: 50em) {
   .flex-direction-nav .flex-prev { opacity: 1; left: 4%;}
   .flex-direction-nav .flex-next { opacity: 1; right: 4%;}
 }
