@@ -20,7 +20,9 @@ $(window).load(function() {
 	$('.flexslider').flexslider({
 		animation: "fade",
 		controlNav: "thumbnails",
-		pauseOnHover: true
+		pauseOnHover: true,
+		slideshow: false,
+		animationLoop: false
 	});
 });
 </script>
@@ -28,10 +30,6 @@ $(window).load(function() {
 <body>
 	
 	{{content}}
-	<hr/>
-	<footer>
-		{% include nav.html %} 
-	</footer>
 	
 	<!-- jquery 2.1.1 & accordion for INFO TOGGLE -->
 	<!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->

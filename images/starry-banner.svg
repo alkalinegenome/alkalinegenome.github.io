@@ -45,10 +45,10 @@
 	<g id="unified-object" clip-path="url(#totalclip)">
 	
 	<rect id="bg" y="0" fill="#708090" width="1500" height="550"> 
-		 <animateColor attributeName="fill"
+	<!--	 <animateColor attributeName="fill"
 				values="#708090; #213A4F;"
                   begin="0s" dur="2s"
-                  fill="" repeatCount="indefinite"/>	
+                  fill="" repeatCount="indefinite"/>	-->
 	</rect>
 	<g>
 		<defs>
@@ -1168,24 +1168,24 @@
 		</g>
 	</g>
 	<g id="mountains">
-		<g>
+		<g class="mountain-1">
 			<polygon fill="#708090" points="769.6,586.9 1184.6,328 1465,502.9 1465,586.9 		"/>
 			<path fill="#FDF5E6" d="M1184.6,333.9L1460,505.7v76.2H787L1184.6,333.9 M1184.6,322.1L752.1,591.9H1470v-91.8L1184.6,322.1
 				L1184.6,322.1z"/>
 		</g>
-		<g>
+		<g class="mountain-2">
 			<polygon fill="#708090" points="242.2,616.9 750,263.3 1257.8,616.9 		"/>
 			<path fill="#FDF5E6" d="M750,269.4l491.9,342.5H258.1L750,269.4 M750,257.2L226.3,621.9h1047.4L750,257.2L750,257.2z"/>
 		</g>
-		<g>
+		<g class="mountain-3">
 			<polygon fill="#708090" points="76.8,616.9 522.7,306.5 968.5,616.9 		"/>
 			<path fill="#FDF5E6" d="M522.7,312.6l429.9,299.4H92.8L522.7,312.6 M522.7,300.4L60.9,621.9h923.6L522.7,300.4L522.7,300.4z"/>
 		</g>
-		<g>
+		<g class="mountain-4">
 			<polygon fill="#708090" points="521.5,616.9 967.3,306.5 1413.1,616.9 		"/>
 			<path fill="#FDF5E6" d="M967.3,312.6l429.9,299.4H537.4L967.3,312.6 M967.3,300.4L505.6,621.9h923.5L967.3,300.4L967.3,300.4z"/>
 		</g>
-		<g>
+		<g class="mountain-5">
 			<polygon fill="#708090" points="5,636.9 5,552.9 285.4,378 700.4,636.9 		"/>
 			<path fill="#FDF5E6" d="M285.4,383.9l397.6,248H10v-76.3L285.4,383.9 M285.4,372.1L0,550.1v91.8h717.9L285.4,372.1L285.4,372.1z"
 				/>
@@ -1372,6 +1372,10 @@
 	
 	#tinyhouse:hover #light {
 		fill: #FBAE17;
+	}
+	
+	.mountain3:hover polygon{
+		fill: red;
 	}
 	]]>  
 </style>
