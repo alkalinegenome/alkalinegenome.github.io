@@ -52,6 +52,32 @@ object {
 	background-color: #FA8072;
 }
 
+.contact ul li a img{
+	width: 100px;
+	display: block;
+	margin: 0 auto;
+}
+
+.social-icons {
+	background: url(../../images/social-icons.svg) no-repeat 0 0;
+}
+
+#behance {
+	background-position: 0px 0;
+}
+
+#tumblr {
+	background-position: -100px 0;
+}
+
+#twitter {
+	background-position: -200px 0;
+}
+
+#instagram {
+	background-position: -300px 0;
+}
+
 @media only screen and (min-width: 10em) {
 	.logo {
 		width: 15%;
