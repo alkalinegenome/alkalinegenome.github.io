@@ -120,7 +120,53 @@ LIGHTSLATEGRAY
     top: 0;  
     z-index: 100;  
     border-top: 0; 
-} 
+}
+/*
+.hide-text {
+text-indent: -1000%;
+white-space: nowrap;
+overflow: hidden;
+}
+
+.nav-btn,
+.nav-btn:link
+.nav-btn:visited {
+	display:block;  none */
+/*	margin: 0 auto;
+	height: 40px;
+	width: 100%;
+	background: #FFF url('../images/nav-icon.svg') no-repeat center center;
+	position:fixed;
+	top: 0;
+	z-index: 1001;
+} */
+
+
+/*
+@media only screen and (max-width: 30em) {
+
+.nav-top,
+.nav-toggle {
+	display:none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	margin: 0 auto;
+	z-index: 1000;
+}
+
+.nav-btn,
+.nav-btn:link
+.nav-btn:visited {
+	display:block;
+}
+
+.nav-toggle[data-state="expanded"]{
+	display:block;
+}
+
+} */
+ 
 /*
 .js-navicon-launch{
 	animation: navicon-launch 1s ease-out forwards;
