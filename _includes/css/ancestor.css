@@ -23,9 +23,17 @@ object {
 	width: 100%;
 }
 
+.mountains {
+	margin: 40px 0;
+}
+
 .center-object {
 	display: block;
 	margin: 0 auto;
+}
+
+.buffer {
+	margin: 42px 0;
 }
 
 .wrap {
@@ -52,7 +60,7 @@ object {
 	background-color: #FA8072;
 }
 
-.contact ul li a img{
+.contact ul li a img{ 
 	width: 100px;
 	display: block;
 	margin: 0 auto;
@@ -76,15 +84,16 @@ object {
 	background-position: 0 300px;
 }
 
-@media only screen and (min-width: 10em) {
+@media only screen and (min-width: 0em) {
 	.logo {
 		width: 15%;
-		margin: 0 auto;
+		margin: 30px auto 0;
 		clear: both;
 		position: absolute;
 		top: 2%;
 		left: 42.5%;
 	}
+	
 }
 
 @media only screen and (min-width: 30em) {
@@ -95,6 +104,14 @@ object {
 		position: absolute;
 		top: 5%;
 		left: 44%;
+	}
+	
+	.mountains {
+		margin: 0;
+	}
+	
+	.buffer {
+		margin: 3rem 0;
 	}
 }
 

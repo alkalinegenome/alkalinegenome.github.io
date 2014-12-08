@@ -146,10 +146,9 @@ hr {
 }
 
 :focus {
-	outline: 3px solid #FFA500;
-	box-sizing:border-box;
+/*	box-sizing:border-box;
 	-moz-box-sizing:border-box;
-	-webkit-box-sizing:border-box;
+	-webkit-box-sizing:border-box; so border doesn't occupy exterior px space*/
 	font-weight: 400;
 }
 
@@ -299,8 +298,4 @@ hr {
 
 .banner h2 {
 	color: #F5F5F5;
-}
-
-.buffer {
-	margin: 3rem 0;
 }

@@ -118,32 +118,56 @@ LIGHTSLATEGRAY
     width: 100%;  
     left: 0;  
     top: 0;  
-    z-index: 100;  
+    z-index: 1001;  
     border-top: 0; 
+	background-color: #F5F5F5;
 }
-/*
+
 .hide-text {
 text-indent: -1000%;
 white-space: nowrap;
 overflow: hidden;
 }
 
+/*Hamburger Nav*/
 .nav-btn,
 .nav-btn:link
 .nav-btn:visited {
-	display:block;  none */
-/*	margin: 0 auto;
+	display:none;
+	margin: 0 auto;
 	height: 40px;
 	width: 100%;
 	background: #FFF url('../images/nav-icon.svg') no-repeat center center;
 	position:fixed;
 	top: 0;
 	z-index: 1001;
-} */
+	border-bottom: 2px solid #FA8072;
+}
+
+@media only screen and (min-width: 30em) {
+	.sticky {
+		border-bottom: 2px solid #FA8072;
+	}
+}
 
 
-/*
 @media only screen and (max-width: 30em) {
+
+.nav {
+	top: 42px;  
+}
+
+.nav li {
+	border-bottom: 1px dotted #FA8072;
+}
+
+.nav li:last-child {
+	border-bottom: 2px solid #FA8072;
+}
+
+.nav-top img {
+	display: none;
+}
 
 .nav-top,
 .nav-toggle {
@@ -153,6 +177,7 @@ overflow: hidden;
 	left: 0;
 	margin: 0 auto;
 	z-index: 1000;
+	width: 100%;
 }
 
 .nav-btn,
@@ -165,23 +190,4 @@ overflow: hidden;
 	display:block;
 }
 
-} */
- 
-/*
-.js-navicon-launch{
-	animation: navicon-launch 1s ease-out forwards;
-	-webkit-animation: navicon-launch 1s ease-out forwards;
 }
-
-@-webkit-keyframes navicon-launch {
-	0% {
-		opacity: 0;
-		transform: translateY(200px);
-	}
-	
-	100% {
-		opacity: 0;
-		transform: translateY(0px);
-	}
-	
-}*/
