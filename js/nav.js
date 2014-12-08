@@ -2,7 +2,7 @@
 
 var navTop = document.querySelector('.nav-toggle');
 
-if (window.screen.width <= 768) {	
+if (window.screen.width <= 480) {	
 	document.querySelector('.nav-btn').addEventListener('click', function(e){
 		e.preventDefault();
 		if(navTop.getAttribute('data-state') == 'expanded'){
@@ -21,7 +21,7 @@ var stickyNavTop = $('.nav-top').offset().top;
 var stickyNav = function(){  
 var scrollTop = $(window).scrollTop();  
        
-if (window.screen.width >= 768) {	
+if (window.screen.width >= 480) {	
 	if (scrollTop > stickyNavTop + 375) {   // + 375 works
 		$('.nav').addClass('sticky');  
 		$('.nav img').css({ 'transform': 'translateY(-300px)' });		
