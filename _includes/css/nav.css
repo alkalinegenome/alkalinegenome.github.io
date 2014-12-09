@@ -37,19 +37,19 @@ LIGHTSLATEGRAY
 	overflow:hidden;
 	width: 100%;
 	z-index: 9999;
-	-webkit-transition: all .25s ease-out 0 ;
-	-moz-transition: all .25s ease-out 0;
-	-ms-transition: all .25s ease-out 0;
-	-o-transition: all .25s ease-out 0;
-	transition: all .25s ease-out 0;
+	-webkit-transition: all .25s ease-out ;
+	-moz-transition: all .25s ease-out;
+	-ms-transition: all .25s ease-out;
+	-o-transition: all .25s ease-out;
+	transition: all .25s ease-out;
 }
 
 .nav img {
-	-webkit-transition: all .25s ease-out 0 ;
-	-moz-transition: all .25s ease-out 0;
-	-ms-transition: all .25s ease-out 0;
-	-o-transition: all .25s ease-out 0;
-	transition: all .25s ease-out 0;
+	-webkit-transition: all .25s ease-out ;
+	-moz-transition: all .25s ease-out;
+	-ms-transition: all .25s ease-out;
+	-o-transition: all .25s ease-out;
+	transition: all .25s ease-out;
 }
 
 .nav-bar-center {

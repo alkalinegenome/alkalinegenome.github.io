@@ -60,30 +60,6 @@ object {
 	background-color: #FA8072;
 }
 
-.contact ul li a img{ 
-	width: 100px;
-	display: block;
-	margin: 0 auto;
-	background: url(../../images/social-icons.svg) no-repeat;
-	background-size: 100%; /* make sure it's set at 100% else you get weird auto fitting/sizing */
-}
-
-.behance {
-	background-position: 0px 0;
-}
-
-.tumblr {
-	background-position: 0 100px;
-}
-
-.twitter {
-	background-position: 0 200px;
-}
-
-.instagram {
-	background-position: 0 300px;
-}
-
 @media only screen and (min-width: 0em) {
 	.logo {
 		width: 15%;
