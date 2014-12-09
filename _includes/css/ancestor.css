@@ -37,7 +37,7 @@ object {
 }
 
 .wrap {
-	overflow: auto;
+	overflow: hidden;
 }
 
 .clearfix {
