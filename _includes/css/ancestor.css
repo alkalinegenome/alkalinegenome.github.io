@@ -56,6 +56,12 @@ object {
 	background-color: #FA8072;
 }
 
+.contact ul li a img {
+	width: 125px;
+	display: block;
+	margin: 0 auto;	
+}
+
 @media only screen and (min-width: 0em) {
 	.logo {
 		width: 15%;
