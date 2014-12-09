@@ -1,54 +1,48 @@
 .indianred {
 	color: #CD5C5C;
-	color: rbga(205,92,92,1); 
+	/* color: rbga(205,92,92,1);  */
 }
 	
 .foxred {
 	color: #E14825;
-	color: rbga(255,72,37,1);
+	/* color: rbga(255,72,37,1); */
 }
 	
 .salmon {
 	color: #FA8072; 
-	color: rbga(250,128,114,1);
+	/* color: rbga(250,128,114,1); */
 }
 
 .oldlace {
 	color: #FDF5E6;
-	color: rbga(253,245,230,1);
+	/* color: rbga(253,245,230,1); */
 }
 	
 .orange {
 	color: #FFA500;
-	color: rbga(255,165,0,1);
+	/* color: rbga(255,165,0,1); */
 }
 
 .slate {
 	color: #708090;
-	color: rbga(112,128,144,1); 
+	/* color: rbga(112,128,144,1); */ 
 }
 
 .lightslate {
 	color: #778899;
-	color: rbga(119,136,153,1); 
+	/* color: rbga(119,136,153,1); */
 }
 	
 .white {
 	color: #F5F5F5;
-	color: rbga(245,245,245,1);
+	/* color: rbga(245,245,245,1); */
 }
 	
 .navyblue {
 	color: #213A4F;
-	color: rgba(33,58,79,1);
+	/* color: rgba(33,58,79,1); */
 }
 	
-.emberorange {
-	color: #E07000;
-	color: rbga(224,112,0,1);
-}
-	
-
 h1, h2, h3, h4, h5, h6, p, blockquote, ul, ol, dl, table {
 	margin-bottom: 1.5rem;
 }
@@ -87,7 +81,7 @@ h3, .star {
 
 h4, .planet {
 	font-size: 1.563rem;
-	line-height: 1.0069;
+	line-height: 1.2069;
 }
 
 h5, .organism {
@@ -204,17 +198,10 @@ a:active {
 }
 
 @media only screen and (max-width: 30em) {
-
-#ohno {
-	padding: 0 5%;
+	#ohno {
+		padding: 0 5%;
+	}
 }
-
-}
-
-/*
-a:focus {
-	outline: #CD5C5C 3px solid;
-}*/
 
 .copyright {
 	color: rgba(0,0,0,.50);

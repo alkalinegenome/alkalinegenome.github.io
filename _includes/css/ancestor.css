@@ -44,10 +44,6 @@ object {
 	clear: left;
 }
 
-#Layer_1 svg:hover {
-	fill: red;
-}
-
 .full-height {
 	position:absolute;
 	top:0;
