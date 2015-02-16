@@ -286,3 +286,24 @@ hr {
 .banner h2 {
 	color: #F5F5F5;
 }
+
+/* UNDER CONSTRUCTION PHASE */
+
+.greetings {
+	display:block;
+	margin: 0 auto;
+	overflow: hidden;
+	text-align: center;
+	height: 100vh;
+}
+
+.greet {
+	display: block;
+	vertical-align: middle;
+}
+
+.hello {
+	display: block;
+	margin: 15rem auto 1rem;
+	overflow: auto;
+}

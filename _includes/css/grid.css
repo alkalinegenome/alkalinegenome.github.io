@@ -144,6 +144,10 @@
 	.unit-l-1 {
 		width: 100%;
 	}
+
+	.unit-l-1-16 {
+		width: 6.25%;
+	}
 }
 
 @media only screen and (min-width: 70em) {
@@ -178,6 +182,10 @@
 	.unit-xl-1 {
 		width: 100%;
 	}
+
+	.unit-xl-1-16 {
+		width: 6.25%;
+	}
 }
 
 @media only screen and (min-width: 100em) {
@@ -211,5 +219,9 @@
 	
 	.unit-xxl-1 {
 		width: 100%;
+	}
+	
+	.unit-xxl-1-16 {
+		width: 6.25%;
 	}
 }
