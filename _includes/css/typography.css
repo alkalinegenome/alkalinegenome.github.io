@@ -42,6 +42,10 @@
 	color: #213A4F;
 	/* color: rgba(33,58,79,1); */
 }
+
+.grey, .gray {
+	color: #666;
+}
 	
 h1, h2, h3, h4, h5, h6, p, blockquote, ul, ol, dl, table {
 	margin-bottom: 1.5rem;
@@ -272,10 +276,10 @@ hr {
 .bottom-none {
 	margin-bottom: 0;
 }
-
+/*
 .piece {
 	margin-bottom: 3rem;
-}
+}*/
 
 .banner {
 	background-color: #FA8072;
@@ -306,4 +310,46 @@ hr {
 	display: block;
 	margin: 15rem auto 1rem;
 	overflow: auto;
+}
+
+/* WORKS */
+
+.piece {
+	margin: 1.5rem auto;
+}
+
+.title {
+	margin: 5.5rem auto;
+}
+
+.info {
+	margin: 1.5rem auto;	
+}
+
+.piece-wrapper {
+	display: block;
+	overflow: auto;
+	padding: 0 0 5rem;
+}
+
+div , div:before, div:after{ 
+     box-sizing:border-box; 
+     -moz-box-sizing:border-box; 
+     -webkit-box-sizing:border-box; 
+     -ms-box-sizing:border-box;
+     -o-box-sizing:border-box;
+   }
+
+@media only screen and (max-width: 50em) {
+	.piece-wrapper {
+		padding: 0 1.5rem 3rem;	
+	}
+}
+
+.no-margin {
+	margin: 0;
+}
+
+figcaption {
+	margin-top: .5rem;
 }
