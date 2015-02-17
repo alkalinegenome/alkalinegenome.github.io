@@ -4,7 +4,7 @@
 
 .grid::before, .grid::after {
   content: " ";
-  display: table
+  display: table;
 }
 
 .grid::after {
