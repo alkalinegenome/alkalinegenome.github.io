@@ -30,7 +30,7 @@ if (window.screen.width >= 480) {
 		//			alert('active');
 	} else {  
 		$('.nav img').css({ 'transform': 'translateY(0px)' });		
-		$('.nav img').css({ 'width': '15%' });		
+		$('.nav img').css({ 'width': '15%' });	
 		$('.nav').removeClass('sticky');   
 	}  
 	};  
