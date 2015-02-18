@@ -318,6 +318,82 @@ hr {
 
 /* WORKS */
 
+.piece-grid {
+	margin: 0 auto;
+	display: block;
+	overflow: auto;
+}
+
+.piece-grid ul li {
+	list-style-type: none;
+}
+
+.fig {
+	overflow: hidden;
+	position: relative;
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+
+figure {
+	display: block;
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+	-webkit-margin-start: 0;
+	-webkit-margin-end: 0;
+}
+
+.fig-link {
+	position: absolute;
+	top: 0;
+	opacity:0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(250,128,114,.7);
+}
+
+.fig-link:hover,
+.fig-link:focus,
+.fig-link:active {
+	opacity: 1;
+}
+
+.fig-link h3 {
+	margin-top: 27%;
+	transform: translateY(25px);
+	-o-transform: translateY(25px);
+	-ms-transform: translateY(25px);
+	-moz-transform: translateY(25px);
+	-webkit-transform: translateY(25px);
+	transition: all ease-out 250ms;
+	-o-transition: all ease-out 250ms;
+	-ms-transition: all ease-out 250ms;
+	-moz-transition: all ease-out 250ms;
+	-webkit-transition: all ease-out 250ms;
+}
+
+.fig-link:hover h3,
+.fig-link:focus h3,
+.fig-link:active h3 {
+	transform: translateY(0px);
+}
+
+.piece-img figcaption {
+	margin: 0;
+	margin-top: 0;
+}
+
+.piece-img img {
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+	filter: gray;
+	-webkit-filter: grayscale(1);	
+}
+
 .piece {
 	margin: 1.5rem auto;
 }

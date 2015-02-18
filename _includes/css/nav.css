@@ -36,6 +36,7 @@ LIGHTSLATEGRAY
 .nav {
 	width: 100%;
 	z-index: 9999;
+	overflow: auto;
 }
 
 .nav a {
@@ -60,10 +61,10 @@ LIGHTSLATEGRAY
 	margin: 0;
 	padding: 0;
 }
-
+/*
 .contact {
 	align-content: center;
-}
+}*/
 
 .contact li {
 	display: inline-block;
