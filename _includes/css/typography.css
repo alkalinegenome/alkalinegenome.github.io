@@ -111,6 +111,10 @@ small, .atom, caption {
 	font-weight: 100;
 }
 
+.serif {
+	font-family: Merriweather, Times New Roman, Times, serif;
+}
+
 .w700 {
 	font-weight: 700;
 }
