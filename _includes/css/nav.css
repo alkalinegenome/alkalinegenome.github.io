@@ -38,6 +38,11 @@ LIGHTSLATEGRAY
 	z-index: 9999;
 }
 
+.nav a {
+	display: block;
+	padding: 1rem 0;
+}
+
 .nav img {
 	-webkit-transition: all .15s ease-in ;
 	-moz-transition: all .25s ease-in;
@@ -73,7 +78,6 @@ LIGHTSLATEGRAY
 	display: inline-block;
 	text-align: center;
 	color: #FA8072; 
-	padding: 1.5rem 0;
 	-webkit-transition: .35s;
 	-moz-transition: .35s;
 	-ms-transition: .35s;
@@ -106,9 +110,9 @@ LIGHTSLATEGRAY
 
 .sticky {  
 	position: fixed;  
-	width: 75%;  
-	left: 12.5%;  
-	right: 12.5%;
+	width: 62.5%;  
+	left: 18.75%;  
+	right: 18.75%;
 	top: 0;  
 	z-index: 1001;  
 	border-top: 0; 
