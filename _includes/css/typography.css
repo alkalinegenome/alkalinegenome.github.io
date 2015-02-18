@@ -280,6 +280,10 @@ hr {
 .bottom-none {
 	margin-bottom: 0;
 }
+
+.bottom-some {
+	margin-bottom: 1rem;
+}
 /*
 .piece {
 	margin-bottom: 3rem;
