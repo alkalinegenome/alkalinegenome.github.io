@@ -329,7 +329,7 @@ hr {
 .piece-wrapper {
 	display: block;
 	overflow: auto;
-	padding: 0 0 5rem;
+	padding: 0 0 2rem;
 }
 
 div , div:before, div:after{ 

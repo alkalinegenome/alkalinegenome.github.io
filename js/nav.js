@@ -26,12 +26,17 @@ if (window.screen.width >= 480) {
 		$('.nav').addClass('sticky');  
 		$('.nav img').css({ 'transform': 'translateY(-300px)' });		
 		$('.nav img').css({ 'width': '0' });		
+		$('.piece-wrapper').css({ 'margin-top': '52px' });		//compensates for nav text height!
+		$('.mountains').css({ 'margin-bottom': '121px' });		//compensates for icon height!
+		
 	
 		//			alert('active');
 	} else {  
 		$('.nav img').css({ 'transform': 'translateY(0px)' });		
 		$('.nav img').css({ 'width': '15%' });	
 		$('.nav').removeClass('sticky');   
+		$('.piece-wrapper').css({ 'margin-top': '0' });		
+		$('.mountains').css({ 'margin-bottom': '0' });		
 	}  
 	};  
 }
