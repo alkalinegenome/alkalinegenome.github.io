@@ -54,6 +54,7 @@ object {
 
 .errorbg {
 	background-color: #FA8072;
+	height: 100vh;
 }
 
 .contact ul {
