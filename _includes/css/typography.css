@@ -156,13 +156,13 @@ hr {
 
 a,
 a:link {
-	color: #E14825;
+	color: #fa8072;
 	text-decoration: none;
 	transition: all 100ms linear;
 }
 
 a:visited {
-	color: #CD5C5C;
+	color: #666;
 }
 
 a:hover,
@@ -290,7 +290,7 @@ hr {
 	margin-bottom: 5rem;
 }
 .about-text {
-	line-height: 1.85rem;
+	line-height: 2rem;
 }
 	
 /*
@@ -299,13 +299,12 @@ hr {
 }*/
 
 .banner {
-	background-color: #FA8072;
 	padding: 1.5rem 0;
 	margin: 10rem 0;
 }
 
 .banner h2 {
-	color: #F5F5F5;
+	color: #FA8072;
 }
 
 /* UNDER CONSTRUCTION PHASE */
