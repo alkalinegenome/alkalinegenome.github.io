@@ -64,12 +64,6 @@ object {
 	overflow: hidden;
 }
 
-@media only screen and (min-width: 100em) {
-	.contact ul li a img {
-		width: 250px;
-	}
-}
-
 @media only screen and (min-width: 0em) {
 	.logo {
 		width: 15%;
