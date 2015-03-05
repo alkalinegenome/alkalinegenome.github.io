@@ -2,14 +2,16 @@
 
 Designer & Developer: Gabriel Mitchell
 gabrielmitchell.ca
-tumblr.foxandforge.com
-@thericeshogun
-alkalinegenome@yahoo.com
+heythere@gabrielmitchell.ca
+tumblr.design-and-disdain.com
+@thericeshogun — meet & tweet
+@gabedrawstype — insta works in progress
 Exploring Ottawa, Canada
 
 
 # THANKS
 
+Kayla Araujo
 The Gurus at CODEPEN
 * amirasalah
 
@@ -18,4 +20,5 @@ The Gurus at CODEPEN
 - Adobe CC 2014
 - GitHub
 - Hover.com
+- Jekyll
 - Superfluous amounts of coffee
