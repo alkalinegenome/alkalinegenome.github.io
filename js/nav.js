@@ -27,7 +27,7 @@ if (window.screen.width >= 480) {
 		$('.nav img').css({ 'transform': 'translateY(-300px)' });		
 		$('.nav img').css({ 'width': '0' });		
 		$('.piece-wrapper').css({ 'margin-top': '52px' });		//compensates for nav text height!
-		$('.mountains').css({ 'margin-bottom': '121px' });		//compensates for icon height!
+		$('.mountains').css({ 'margin-bottom': '162px' });		//compensates for icon height & something else!
 		
 	
 		//			alert('active');
